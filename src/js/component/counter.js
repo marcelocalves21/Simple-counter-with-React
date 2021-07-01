@@ -15,12 +15,13 @@ export const Counter1 = () => {
 	return (
 		<span
 			style={{
+				background: "rgb(41,41,41)",
 				padding: "0px 25px",
 				margin: "5px 10px",
-				border: "1px solid lightgray",
+				border: "1px solid rgb(61, 61, 61)",
 				borderRadius: "15px",
-				borderLeft: "5px solid lightgray",
-				borderRight: "5px solid lightgray"
+				borderLeft: "5px solid rgb(61, 61, 61)",
+				borderRight: "5px solid rgb(61, 61, 61)"
 			}}>
 			{count}
 		</span>
@@ -42,12 +43,13 @@ export const Counter2 = () => {
 	return (
 		<span
 			style={{
+				background: "rgb(41,41,41)",
 				padding: "0px 25px",
 				margin: "5px 10px",
-				border: "1px solid lightgray",
+				border: "1px solid rgb(61, 61, 61)",
 				borderRadius: "15px",
-				borderLeft: "5px solid lightgray",
-				borderRight: "5px solid lightgray"
+				borderLeft: "5px solid rgb(61, 61, 61)",
+				borderRight: "5px solid rgb(61, 61, 61)"
 			}}>
 			{count}
 		</span>
@@ -68,12 +70,13 @@ export const Counter3 = () => {
 	return (
 		<span
 			style={{
+				background: "rgb(41,41,41)",
 				padding: "0px 25px",
 				margin: "5px 10px",
-				border: "1px solid lightgray",
+				border: "1px solid rgb(61, 61, 61)",
 				borderRadius: "15px",
-				borderLeft: "5px solid lightgray",
-				borderRight: "5px solid lightgray"
+				borderLeft: "5px solid rgb(61, 61, 61)",
+				borderRight: "5px solid rgb(61, 61, 61)"
 			}}>
 			{count}
 		</span>
@@ -94,12 +97,13 @@ export const Counter4 = () => {
 	return (
 		<span
 			style={{
+				background: "rgb(41,41,41)",
 				padding: "0px 25px",
 				margin: "5px 10px",
-				border: "1px solid lightgray",
+				border: "1px solid rgb(61, 61, 61)",
 				borderRadius: "15px",
-				borderLeft: "5px solid lightgray",
-				borderRight: "5px solid lightgray"
+				borderLeft: "5px solid rgb(61, 61, 61)",
+				borderRight: "5px solid rgb(61, 61, 61)"
 			}}>
 			{count}
 		</span>
@@ -120,12 +124,13 @@ export const Counter5 = () => {
 	return (
 		<span
 			style={{
+				background: "rgb(41,41,41)",
 				padding: "0px 25px",
 				margin: "5px 10px",
-				border: "1px solid lightgray",
+				border: "1px solid rgb(61, 61, 61)",
 				borderRadius: "15px",
-				borderLeft: "5px solid lightgray",
-				borderRight: "5px solid lightgray"
+				borderLeft: "5px solid rgb(61, 61, 61)",
+				borderRight: "5px solid rgb(61, 61, 61)"
 			}}>
 			{count}
 		</span>
@@ -146,12 +151,13 @@ export const Counter6 = () => {
 	return (
 		<span
 			style={{
+				background: "rgb(41,41,41)",
 				padding: "0px 25px",
 				margin: "5px 10px",
-				border: "1px solid lightgray",
+				border: "1px solid rgb(61, 61, 61)",
 				borderRadius: "15px",
-				borderLeft: "5px solid lightgray",
-				borderRight: "5px solid lightgray"
+				borderLeft: "5px solid rgb(61, 61, 61)",
+				borderRight: "5px solid rgb(61, 61, 61)"
 			}}>
 			{count}
 		</span>
