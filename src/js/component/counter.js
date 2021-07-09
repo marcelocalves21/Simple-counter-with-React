@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import { styles } from "./constant";
 
 const Counter = ({ time }) => {
 	const [count, setCount] = useState(0);
@@ -13,20 +14,7 @@ const Counter = ({ time }) => {
 			setCount(count => count + 1);
 		}, time);
 	}, []);
-	return (
-		<span
-			style={{
-				background: "rgb(41,41,41)",
-				padding: "0px 25px",
-				margin: "5px 10px",
-				border: "1px solid rgb(61, 61, 61)",
-				borderRadius: "15px",
-				borderLeft: "5px solid rgb(61, 61, 61)",
-				borderRight: "5px solid rgb(61, 61, 61)"
-			}}>
-			{count}
-		</span>
-	);
+	return <span style={styles.components}>{count}</span>;
 };
 
 Counter.propTypes = {
